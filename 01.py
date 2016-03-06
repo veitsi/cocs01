@@ -64,7 +64,15 @@ main_scene.add(cooler1)
 cooler2 = cocos.sprite.Sprite('cooler50x102.png')
 cooler2.position = 500, 200
 main_scene.add(cooler2)
-cooler2.do(cocos.actions.JumpBy((0, 0), 5, 500, 1000))
+# cooler2.do(cocos.actions.JumpBy((0, 0), 5, 500, 1000))
+
+wc1 = cocos.sprite.Sprite('wc80x80.png')
+wc1.position = 230, 500
+main_scene.add(wc1)
+
+tent1 = cocos.sprite.Sprite('tent120x120.png')
+tent1.position = 650, 490
+main_scene.add(tent1)
 
 grossini = cocos.sprite.Sprite('grossini.png')
 # We place the sprite in the center of the screen. Default position is (0,0):
